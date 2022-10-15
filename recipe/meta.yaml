@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/geometa_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/geometa/geometa_{{ version }}.tar.gz
-  sha256: bb1b4a4dc032ba276f173a6366bf5f06138ee4d80850a2086b32b799e5248abb
+  sha256: 6060a973d380f2e0ba20c234ebe5826ef5419e415131b5c751570c1b53378df2
 
 build:
   merge_build_host: true  # [win]
