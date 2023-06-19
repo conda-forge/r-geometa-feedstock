@@ -1,11 +1,11 @@
-About r-geometa
-===============
+About r-geometa-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-geometa-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/eblondel/geometa/wiki
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-geometa-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides facilities to handle reading and writing of geographic metadata defined with OGC/ISO 19115, 11119 and 19110 geographic information metadata standards, and encoded using the ISO 19139 (XML) standard. It includes also a facility to check the validity of ISO 19139 XML encoded metadata.
 
