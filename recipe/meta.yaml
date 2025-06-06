@@ -1,4 +1,4 @@
-{% set version = "0.9.1" %}
+{% set version = "0.9.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/geometa_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/geometa/geometa_{{ version }}.tar.gz
-  sha256: 1f9a46282df15de3fefc384cdb17c05b2f5ce34ef3124ee528b5e5108ac3f828
+  sha256: 11b162cf9a93c06012ac1a8170fde42f79237d9db0244f6cf519e62f6f9086a5
 
 build:
   number: 0
