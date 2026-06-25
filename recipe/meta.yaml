@@ -1,4 +1,4 @@
-{% set version = "0.10.0" %}
+{% set version = "0.10.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/geometa_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/geometa/geometa_{{ version }}.tar.gz
-  sha256: 868befd1d038c3d6cd0681813c8e1e7bbc0e19400db739de88b12ecad47617e9
+  sha256: 034ab5d7838a3fd7d1033184a86565bd40c8a42dd1f883670bdd37f37179a272
 
 build:
   number: 0
@@ -55,13 +55,8 @@ test:
 about:
   home: https://github.com/eblondel/geometa/wiki
   license: MIT
-  summary: Provides facilities to read, write and validate geographic metadata defined with ISO
-    TC211 / OGC ISO geographic information metadata standards, and encoded using the
-    ISO 19139 and ISO 19115-3 (XML) standard technical specifications. This includes
-    ISO 19110 (Feature cataloguing), 19115 (dataset metadata), 19119 (service metadata)
-    and 19136 (GML). Other interoperable schemas from the OGC are progressively supported
-    as well, such as the Sensor Web Enablement (SWE) Common Data Model, the OGC GML
-    Coverage Implementation Schema (GMLCOV), or the OGC GML Referenceable Grid (GMLRGRID).
+  summary: Provides facilities to read, write and validate geographic metadata defined with ISO TC211 / OGC ISO geographic information metadata standards, and encoded using the ISO 19139 and ISO 19115-3 (XML) standard technical specifications. This includes ISO 19110 (Feature cataloguing), 19115 (dataset metadata), 
+    19119 (service metadata) and 19136 (GML). Other interoperable schemas from the OGC are progressively supported as well, such as the Sensor Web Enablement (SWE) Common Data Model, the OGC GML Coverage Implementation Schema (GMLCOV), or the OGC GML Referenceable Grid (GMLRGRID).
   license_family: MIT
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/MIT
